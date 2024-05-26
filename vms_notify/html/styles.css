@@ -1,0 +1,41 @@
+body {
+    margin-top: 100px;
+    font-family: 'Akrobat', sans-serif;
+    overflow: hidden;
+}
+
+.notify {
+    width: 100px;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
+.icon {
+    font-size:20px; 
+    color:white;
+}
+
+.main {
+    margin: 4px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 24px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+.notification {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
